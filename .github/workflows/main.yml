@@ -13,9 +13,9 @@ jobs:
     - name: Download ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja/main/mulai.bat -OutFile mulai.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja/main/up.bat -OutFile up.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja/main/looping.bat -OutFile looping.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja2/main/mulai.bat -OutFile mulai.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja2/main/up.bat -OutFile up.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/abhiaviprog/apasaja2/main/looping.bat -OutFile looping.bat
     - name: Mengextrak File Ngrok.
       run: Expand-Archive ngrok.zip
     - name: Connect ke ngrok.
